@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Link to font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--Link to CSS sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Unison | Features</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--Body of website-->
+
+<body onresize="resize()">
+    <!--Top navigation bar-->
+    <div>
+        <div class="topnav">
+            <a class="text-logo" href="index.html">
+                <div class="logo-container underlined-element">
+                    <img class="logo" src="./images/logo_unison/logo24.png" href="index.html" alt="Unison">
+                    <div id="topnav-unison-text">UNISON</div>
+                </div>
+            </a>
+            <div class="right-elements">
+                <a class="team underlined-element" href="team.html">TEAM</a>
+                <a class="options underlined-element" href="options.html">OPTIONS</a>
+                <a class="features underlined-element" href="#page1">FEATURES</a>
+            </div>
+        </div>
+        <div class="icons-topnav">
+            <a target="_blank" href="https://twitter.com/UnisonOttawa" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="https://www.facebook.com/Unison-103684677769479/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/groups/8854973/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div id="btn-try-animation" onclick="try_it()">TRY THE ANIMATION YOURSELF</div>
+        <div id="myContainer"></div>
+
+    </div>
+    <!--Title of page: header-->
+    <a id="page1"></a>
+    <div class="bg-image" style="background-image: url(./images/background/background2.jpg)">
+
+
+        <div class="dark-region">
+            <h1>FEATURES</h1>
+            <p>DISCOVER HOW WE HELP
+                <span class="together" data-period="2000"
+                    data-rotate='[ "MUSICIANS.", "PRODUCERS.", "COMPOSERS.", "SONGWRITERS.","VOCALISTS.","ENGINEERS."]'></span>
+            </p>
+        </div>
+        <script src="./scripts/typewriter.js"></script>
+
+        <div class="dark-region-bottom-container" style="top: 23vh;">
+            <a href="./options.html#page" class="link">
+                <div class="dark-region-bottom">
+                    <p>SEE MORE</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="arrow">
+            <a href="#page">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </div>
+
+    <div id="myContainer"
+        style="position: absolute; display: flex; background-color: rgba(0, 0, 0, 0); top: calc(100vh - 65.5px - 150px);">
+    </div>
+    </div>
+
+
+    <a id="page"></a>
+    <div class="bg-image" style="background-image: url(features.gif)">
+        <div class="bottom-region-features">
+            <p>UNISON CONVERTS<span style="color:rgb(177, 18, 18)"> LOCAL DAW FILES </span>TO A<span
+                    style="color:rgb(177, 18, 18)"> CROSS-COMPATIBLE </span>INTERMEDIATE PROJECT USING <span
+                    style="color:rgb(177, 18, 18)">ARTIFICIAL INTELLIGENCE.</span></p>
+            <p>INTERMEDIATE PROJECTS CAN BE<span style="color:rgb(177, 18, 18)"> SOLD AND BOUGHT </span>ON THE <span
+                    style="color:rgb(177, 18, 18)">UNISON MARKETPLACE</span>, THEN MODIFIED ON ANY LOCAL DAW.</p>
+        </div>
+
+        <div class="feature-animation-flex-container">
+            <div style="width: min-content; height: min-content; display: flex; align-items: center; text-align: center; flex-flow: column;">
+                <img src="./images/ai.png" style="width: 200px; height: auto; min-width: 100px;">
+                AI CONVERSION
+            </div>
+            <div style="width: min-content; height: min-content; display: flex; align-items: center; text-align: center; flex-flow: column;">
+                <div class="feature-animation-container" onmouseover="with_unison()" onmouseleave="without_unison()">
+                    <img src="./animations/animation_feature_logos.png" class="feature-animation-img" id="img-feature-logos"
+                        style="z-index: 3">
+                    <img src="./animations/animation_feature_lines.png" class="feature-animation-img"
+                        id="img-features-lines" style="z-index: 2">
+                    <img src="./animations/animation_feature_unison.png" class="feature-animation-img"
+                        id="img-features-unison" style="z-index: 3">
+                </div>
+                <p style="position: relative; top: -100px">CROSS-COMPATIBILITY</p>
+            </div>
+            <div style="width: min-content; height: min-content; display: flex; align-items: center; text-align: center; flex-flow: column;">
+                <img src="./images/marketplace.png"  style="width: 200px; height: auto; min-width: 100px;">
+                MARKETPLACE
+            </div>
+            
+        </div>
+
+
+        <div style="width: 100%; top: 190vh; position: absolute; display: flex; align-items: center; flex-flow: row; justify-content: space-around;">
+            
+            <a href="options.html" style="text-decoration: none">
+                <div class="dark-region-bottom">
+                    <p>START NOW</p>
+                </div>
+            </a>
+        </div>
+
+
+    </div>
+
+
+
+    <!--Bottom navigation bar-->
+    <div class="botnav">
+        <a style="float: right" href="#">CONTACT</a>
+        <a style="float: right" href="#">TERMS AND CONDITIONS</a>
+        <a style="float: right" href="#">PRIVACY</a>
+        <a style="float: left" href="#">COPYRIGHT &copy; UNISON 2019</a>
+    </div>
+
+    <script src="./scripts/data.js"></script>
+    <script src="./scripts/p5.js"></script>
+    <script src="./scripts/p5.dom.js"></script>
+    <script src="./scripts/p5.sound.js"></script>
+    <!-- <script src="./scripts/sketch_logo.js"></script> -->
+    <script src="./scripts/sketch_music_visualisation.js"></script>
+    <script src="./scripts/scroll_down.js"></script>
+    <script type="text/javascript">
+        var state = false;
+        var o = 0;
+        function fadeIn(el) {
+            el.style.opacity = 0;
+            var tick = function () {
+                el.style.opacity = +el.style.opacity + 0.05;
+                if (+el.style.opacity < 1) {
+                    (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16)
+                }
+            };
+            tick();
+        }
+        function fadeOut(el) {
+            el.style.opacity = 1;
+            var tick = function () {
+                el.style.opacity = +el.style.opacity - 0.05;
+                if (+el.style.opacity > 0) {
+                    (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16)
+                }
+            };
+            tick();
+        }
+        function without_unison() {
+            el1 = document.getElementById("img-features-lines");
+            el2 = document.getElementById("img-features-unison");
+            if (!state) {
+                state = !state;
+                console.log("without");
+                fadeOut(el1);
+                fadeOut(el2);
+
+
+            }
+
+        }
+        function with_unison() {
+            if (state) {
+                state = !state;
+                console.log("with unison");
+
+                fadeIn(el1);
+                fadeIn(el2);
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+<!-- <div class="icon" id="logo0" style="top: calc(var(--canvas-animation-y) + 9%); left: calc(var(--canvas-animation-x) + 12%); " >
+            <img src="./images/icon/icon.png" alt="Icon" class="icon-img">
+            <div class="icon-text">Noah<br>
+            Cubase</div>
+        </div>
+        <div class="icon" id="logo1" style="top: calc(var(--canvas-animation-y) + 20%); left: calc(var(--canvas-animation-x) + 4%); " >
+            <img src="./images/icon/icon1.png" alt="Icon" class="icon-img">
+            <div class="icon-text">Liam<br>
+            Ableton Live</div>
+        </div>
+        <div class="icon" id="logo2" style="top: calc(var(--canvas-animation-y) + 9%); left: calc(var(--canvas-animation-x) + 20%); " >
+            <img src="./images/icon/icon2.png" alt="Icon" class="icon-img">
+            <div class="icon-text">Abigail<br>
+            Pro Tools</div>
+        </div>
+        <div class="icon" id="logo3" style="top: calc(var(--canvas-animation-y) + 9%); left: calc(var(--canvas-animation-x) + 28%); " >
+            <img src="./images/icon/icon3.png" alt="Icon" class="icon-img">
+            <div class="icon-text">Aubrey<br>
+            Logic Pro</div>
+        </div>
+        <div class="icon" id="logo4" style="top: calc(var(--canvas-animation-y) + 20%); left: calc(var(--canvas-animation-x) + 36%); " >
+            <img src="./images/icon/icon4.png" alt="Icon" class="icon-img">
+            <div class="icon-text">William<br>
+            Garageband</div>
+        </div>
+        <div class="icon" id="logo5" style="top: calc(var(--canvas-animation-y) + 31%); left: calc(var(--canvas-animation-x) + 28%); " >
+            <img src="./images/icon/icon5.png" alt="Icon" class="icon-img">
+            <div class="icon-text">Ethan<br>
+            Logic Pro</div>
+        </div>
+        <div class="icon" id="logo6" style="top: calc(var(--canvas-animation-y) + 31%); left: calc(var(--canvas-animation-x) + 20%); " >
+            <img src="./images/icon/icon6.png" alt="Icon" class="icon-img">
+            <div class="icon-text">Madelyn<br>
+            Fl Studio</div>
+        </div>
+        <div class="icon" id="logo7" style="top: calc(var(--canvas-animation-y) + 31%); left: calc(var(--canvas-animation-x) + 12%); " >
+            <img src="./images/icon/icon7.png" alt="Icon" class="icon-img">
+            <div class="icon-text">Kaylee<br>
+            Ableton Live</div>
+        </div>
+        <img src="./images/cloud_1.png" style="top: calc(var(--canvas-animation-y) - 10%); left: calc(var(--canvas-animation-x) + 0%); position: absolute; width: 45%; height: 59%; opacity: 20%;">
+        <div class="text-sketch-unison" style="top: calc(var(--canvas-animation-y) + 20%); left: calc(var(--canvas-animation-x) + 18%); width: 25%; height: 25%;">
+            UNISON
+        </div> -->

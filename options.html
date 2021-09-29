@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Link to font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--Link to CSS sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Unison | Options</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<!--Body of website-->
+
+<body onresize="resize()">
+    <!--Top navigation bar-->
+
+    <div>
+        <div class="topnav">
+            <a class="text-logo" href="index.html">
+                <div class="logo-container underlined-element">
+                    <img class="logo" src="./images/logo_unison/logo24.png" href="index.html" alt="Unison">
+                    <div id="topnav-unison-text">UNISON</div>
+                </div>
+            </a>
+            <div class="right-elements">
+                <a class="team underlined-element" href="team.html">TEAM</a>
+                <a class="options underlined-element" href="#page1">OPTIONS</a>
+                <a class="features underlined-element" href="features.html">FEATURES</a>
+            </div>
+        </div>
+        <div class="icons-topnav">
+            <a target="_blank" href="https://twitter.com/UnisonOttawa" class="twitter"><i class="fa fa-twitter"></i></a> 
+            <a target="_blank" href="https://www.facebook.com/Unison-103684677769479/" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a target="_blank" href="https://www.linkedin.com/groups/8854973/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div id="btn-try-animation" onclick="try_it()">TRY THE ANIMATION YOURSELF</div>
+        <div id="myContainer"></div>
+    </div>
+
+    <!--Title of page: header-->
+
+    <a id="page1"></a>
+    <div class="bg-image" style="background-image: url(./images/background/background3.jpg)">
+        
+        <div class="dark-region">
+            <h1>OPTIONS</h1>
+            <p>WE GIVE YOU <span class="together">OPTIONS.</span></p>
+        </div>
+
+        <div class="dark-region-bottom-container" style="top: 23vh">
+            <a href="#page" class="link">
+                <div class="dark-region-bottom">
+                    <p>SEE OPTIONS</p>
+                </div> 
+            </a>
+        </div>
+
+            <div class="arrow"  >
+                <a href="#page">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </a>
+    </div>
+
+    <a id="page"></a>
+    <div class="bg-image" style="background-image: url(options.gif)">
+        <div class="bottom-region-options2">
+            <p>PICK WHAT'S BEST FOR<span style="color:rgb(177, 18, 18)"> YOU.</span></p>
+        </div>
+
+        <div class="bottom-region-options pricing-flex-container">
+             <div class="pricing-container">
+                <div> <img src="https://img.icons8.com/color/100/000000/briefcase.png"> </div>
+                <div style="color:rgb(177, 18, 18)">
+                    <p>PROFIT: PROFESSIONAL</p>
+                </div>
+                <div>
+                    <p>$20/MONTH</p>
+                    <p>UNLIMITED PROJECTS</p>
+                    <p>NO ADS</p>
+                    <p>PUBLISHING</p>
+                    <p>SELLING</p>
+                </div>
+                <div class="selector">
+                    <a href="#" style="text-decoration: none;">
+                        <div class="select">
+                            <p>SELECT</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pricing-container">
+                <div><img src="https://img.icons8.com/color/100/000000/sofa.png"> </div>
+                <div style="color:rgb(173, 30, 255)">
+                    <p>ENJOY: LEISURE</p>
+                </div>
+                <div>
+                    <p>$5/MONTH</p>
+                    <p>5 PROJECTS/MONTH</p>
+                    <p>NO ADS</p>
+                    <p>PUBLISHING</p>
+                    <p>NO SELLING</p>
+                </div>
+                <div class="selector">
+                    <a href="#" style="text-decoration: none;">
+                        <div class="select">
+                                <p>SELECT</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="pricing-container" style="">
+                <div><img src="https://img.icons8.com/color/100/000000/student-male--v2.png"> </div>
+                <div style="color:rgb(32, 204, 161)">
+                    <p>LEARN: STUDENT</p>
+                </div>
+                <div>
+                    <p>FREE FOR 4 YEARS</p>
+                    <p>2 PROJECTS/MONTH</p>
+                    <p>ADS</p>
+                    <p>No PUBLISHING</p>
+                    <p>NO SELLING</p>
+                </div>
+
+                <div class="selector">
+                    <a href="#" style="text-decoration: none;">
+                        <div class="select">
+                            <p>SELECT</p>
+                        </div>
+                    </a>
+                </div>
+               
+            </div>
+        </div>
+
+        <a href="team.html">
+                <div class="linker2">
+                    <p>SEE OUR TEAM</p>
+                </div>
+        </a>
+    </div>
+
+
+    <!--Bottom navigation bar-->
+    <div class="botnav">
+            <a style="float: right" href="#">CONTACT</a>
+            <a style="float: right" href="#">TERMS AND CONDITIONS</a>
+            <a style="float: right" href="#">PRIVACY</a>
+            <a style="float: left" href="#">COPYRIGHT &copy; UNISON 2019</a>
+        </div>
+
+    <script src="./scripts/data.js"></script>
+    <script src="./scripts/p5.js"></script>
+    <script src="./scripts/p5.dom.js"></script>
+    <script src="./scripts/p5.sound.js"></script>
+    <!-- <script src="./scripts/sketch_logo.js"></script> -->
+    <script src="./scripts/sketch_music_visualisation.js"></script>
+    <script src="./scripts/scroll_down.js"></script>
+
+</body>
+
+</html>

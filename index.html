@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Link to font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+
+    <!--Link to CSS sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+
+
+    <title>Unison | Home</title>
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--Body of website-->
+
+<body onresize="resize()">
+    <!--Top navigation bar-->
+
+    <div>
+        <div class="topnav">
+            <a class="text-logo" href="#page1">
+                <div class="logo-container underlined-element">
+                    <img class="logo" src="./images/logo_unison/logo24.png" href="#page1" alt="Unison">
+                    <div id="topnav-unison-text">UNISON</div>
+                </div>
+            </a>
+            <div class="right-elements">
+                <a class="team underlined-element" href="team.html">TEAM</a>
+                <a class="options underlined-element" href="options.html">OPTIONS</a>
+                <a class="features underlined-element" href="features.html">FEATURES</a>
+            </div>
+
+        </div>
+        <div class="icons-topnav">
+            <a target="_blank" href="https://twitter.com/UnisonOttawa" class="twitter"><i class="fa fa-twitter"></i></a> 
+            <a target="_blank" href="https://www.facebook.com/Unison-103684677769479/" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a target="_blank" href="https://www.linkedin.com/groups/8854973/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+        
+        <div id="btn-try-animation" onclick="try_it()">TRY THE ANIMATION YOURSELF</div>
+        <div id="myContainer"></div>
+
+    </div>
+
+    <!--Title of page: header-->
+
+    <a id="page1"></a>
+    <div class="bg-image" style="background-image: url(./images/background/background1.jpg)">
+        <div class="dark-region">
+            <h1>UNISON</h1>
+            <p>WE HELP MUSICIANS
+                <span class="together" data-period="2000"
+                    data-rotate='["COLLABORATE.", "SHARE.", "EXCHANGE.", "CREATE.", "GROW.",  "PRODUCE.", "TRANSFORM.", "INNOVATE.", "INFLUENCE."]'></span>
+            </p>
+        </div>
+
+        
+        <div class="dark-region-bottom-container" style="top: 23vh;">
+            <a href="./options.html#page" class="link">
+                <div class="dark-region-bottom">
+                    <p>START NOW</p>
+                </div> 
+            </a>
+        </div>
+            
+        <div class="arrow"  >
+            <a href="#page">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </div>
+
+
+    <a id="page"></a>
+    <div class="bg-image" style="background-image: url(index.gif)">
+
+        <div class="bottom-region">
+            <p><span style="color:rgb(177, 18, 18)">UNISON</span> IS AN ONLINE <span style="color: rgb(177, 18, 18)">PLATFORM</span> FOR <span
+                    style="color: rgb(177, 18, 18)">MUSIC COLLABORATION.</span></p>
+
+            <p>UNISON IS COMPATIBLE WITH:</p>
+        </div>
+
+        <div class="studios1">
+            <div class="studio">
+                <a href="https://www.bitwig.com/en/home.html" target="_blank"><img src="./images/logo_other/bitwig-studio.png"></a>
+                <div class="studio-text">BITWIG</div>
+            </div>
+
+            <div class="studio">
+                    <a href="https://motu.com/products/software/dp/" target="_blank"> <img src="./images/logo_other/digital-performer.png"> </a>
+                    <div class="studio-text">DIGITAL PERFORMER</div>
+                </div>
+
+            <div class="studio">
+                <a href="https://www.avid.com/pro-tools" target="_blank"> <img src="./images/logo_other/pro-tools.png"> </a>
+                <div class="studio-text">PRO TOOLS</div>
+            </div>
+
+            <div class="studio">
+               <a href="https://new.steinberg.net/cubase/" target="_blank"> <img src="./images/logo_other/reason.png"></a>
+                <div class="studio-text">REASON</div>
+
+            </div>
+
+            <div class="studio">
+                <a target="_blank" href="https://www.apple.com/ca/mac/garageband/" ><img src="./images/logo_other/gb_app.png"></a>
+                <div class="studio-text">GARAGEBAND</div>
+            </div>
+
+            <div class="studio">
+                <a href="https://new.steinberg.net/cubase/" target="_blank"> <img src="./images/logo_other/cubase.png"> </a>
+                <div class="studio-text">CUBASE</div>
+            </div>
+
+            <div class="studio">
+                <a href="https://www.ableton.com/en/" target="_blank"> <img src="./images/logo_other/ableton.png"> </a>
+                <div class="studio-text">ABLETON LIVE</div>
+            </div>
+
+            <div class="studio">
+                <a href="https://www.image-line.com/flstudio/" target="_blank"> <img src="./images/logo_other/fl-studio.png"> </a>
+                <div class="studio-text">FL STUDIO</div>
+            </div>
+
+            <div class="studio">
+                <a href="https://www.apple.com/ca/logic-pro/" target="_blank"><img src="./images/logo_other/logic-pro.png"></a>
+                <div class="studio-text">LOGIC PRO</div>
+            </div>
+
+        </div>
+        <a href="features.html">
+            <div class="linker2">
+                <p>SEE FEATURES</p>
+            </div>
+        </a>
+
+    </div>
+
+    <!--Bottom navigation bar-->
+    <div class="botnav">
+        <a style="float: right" href="#">CONTACT</a>
+        <a style="float: right" href="#">TERMS AND CONDITIONS</a>
+        <a style="float: right" href="#">PRIVACY</a>
+        <a style="float: left" href="#">COPYRIGHT &copy; UNISON 2019</a>
+    </div>
+
+    <script src="./scripts/data.js"></script>
+    <script src="./scripts/p5.js"></script>
+    <script src="./scripts/p5.dom.js"></script>
+    <script src="./scripts/p5.sound.js"></script>
+    <script src="./scripts/sketch_music_visualisation.js"></script>
+    <!-- <script src="./scripts/sketch_logo.js"></script> -->
+    <script src="./scripts/typewriter.js"></script>
+    <script src="./scripts/scroll_down.js"></script>
+
+
+</body>
+
+<footer></footer>
+
+</html>
