@@ -1,7 +1,5 @@
-### Group Number:
-3
 
-### Project and Team Name:
+### Project:
 Unison
 
 ### Project Description:
@@ -13,22 +11,10 @@ Features:
 - Based on the GitHub model, you can pull intermediary projects from the cloud on the local DAW that you prefer, or push pieces of your local projects to the cloud for others to work on using their preferred DAW.
 - You can work on branches and versions of the same project and merge them into one final project.
 
-### [Organization GitHub Account:](https://github.com/unison-inc-uottawa)
-https://github.com/unison-inc-uottawa
-
-### [Repositories GitHub Account:](https://github.com/unison-inc-uottawa/unison)
-https://github.com/unison-inc-uottawa/unison
-
-### [Project Website:](https://unison-inc-uottawa.github.io/unison/)
-https://unison-inc-uottawa.github.io/unison/
-
-### [README.md:](https://github.com/unison-inc-uottawa/unison/blob/master/README.md)
-https://github.com/unison-inc-uottawa/unison/blob/master/README.md
-
 
 ### Members' Accounts:
+ - Anisa Y Ahmed: [anisayac](https://github.com/anisayac)
  - Géraud Ndagang Nguimfack: [NNG2000](https://github.com/NNG2000)
  - Mohamed Bachrouch : [moebachrouch](https://github.com/moebachrouch)
  - Sébastien Girard : [sebastiengrd](https://github.com/sebastiengrd)
- - Anisa Y Ahmed: [anisayac](https://github.com/anisayac)
  - Taj Loodu: [tloodu](https://github.com/tloodu)
